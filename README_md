@@ -1,0 +1,65 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNLIzCyDEUwsGx512CLXvrf",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/shripathivarun/Password-Strength-Checker/blob/main/README_md\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "7Nj9yC4WTI4Y"
+      },
+      "outputs": [],
+      "source": [
+        "# 🔐 Password Strength Checker\n",
+        "\n",
+        "A simple tool to check the strength of a password in **Python**.\n",
+        "It scores a password based on **length, character diversity, common patterns, and repetitions**,\n",
+        "and provides suggestions to make the password stronger.\n",
+        "\n",
+        "---\n",
+        "\n",
+        "## 🚀 Features\n",
+        "- ✅ Scores password strength from **0–100**\n",
+        "- ✅ Labels: *Very Weak, Weak, Fair, Strong, Excellent*\n",
+        "- ✅ Detects common weak passwords (e.g., `123456`, `password`)\n",
+        "- ✅ Checks for repeated characters (like `aaa`)\n",
+        "- ✅ Provides suggestions for improvement\n",
+        "- ✅ Optional **Flask API** to use in web apps\n",
+        "\n",
+        "---\n",
+        "\n",
+        "## 🛠 Installation\n",
+        "\n",
+        "Clone this repository:\n",
+        "\n",
+        "```bash\n",
+        "git clone https://github.com/your-username/Password-Strength-Checker.git\n",
+        "cd Password-Strength-Checker\n"
+      ]
+    }
+  ]
+}
